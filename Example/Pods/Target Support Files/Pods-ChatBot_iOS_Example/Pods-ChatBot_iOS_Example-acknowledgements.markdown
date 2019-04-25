@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## ChatBot_iOS
 
-Copyright (c) 2019 joris1995 <joris.dijkstra@incentro.com>
+ Copyright (c) 2019 joris1995 <joris.dijkstra@incentro.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

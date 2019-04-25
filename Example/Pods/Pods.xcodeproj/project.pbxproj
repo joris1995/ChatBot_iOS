@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D40A6BBBD563A39DAAAC915D2CB1042 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		312CC98D2C7DAF30EA67C3DDF14F9FD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		32D1AB786F67AFCD56EF3EC16CDFBFF0 /* Pods-ChatBot_iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB8E8D30A968B04B59A69C6FEB98C36 /* Pods-ChatBot_iOS_Example-dummy.m */; };
-		5F04278D83DDD2ECA711BEFA072135A3 /* ChatBot_iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F86B0BB06E44FD51DDBE9024EE9C420E /* ChatBot_iOS-dummy.m */; };
+		3BCAADE3CEEDD4B1346DA404BE2BF3A2 /* ChatBot_iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 680006EE1DA21ED5886E65CFE4A5F882 /* ChatBot_iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FBBFC53B1606CADFD2EB7E052CE5ECB /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78E7864C0AE4A147C352B4FC48C5A1 /* TestClass.swift */; };
 		61D5482B5B38F572822A89203FB7FF87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		69A419812271E04B0031A6F3 /* PrintHello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A419802271E04B0031A6F3 /* PrintHello.swift */; };
 		7AF7018C54B44DF46D853E839C05C850 /* Pods-ChatBot_iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73CC779E296AF9E5204AAE5B1C75C467 /* Pods-ChatBot_iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A42213575E66C18F2ACA0F6B5EC093F2 /* Pods-ChatBot_iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 617663C8EC908EA72D5DCC9591844392 /* Pods-ChatBot_iOS_Tests-dummy.m */; };
-		A47F9911F807B595E17A4E9BA8ADFA30 /* ChatBot_iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C41C9E4E0DEF2EB2FF1077386649E81C /* ChatBot_iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC20488CDDE4BD9E8BFEDB76FEE880FA /* ChatBot_iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 437375F24CBC3CBFC60FD7D99966333A /* ChatBot_iOS-dummy.m */; };
 		EE15740EC04CF7B3A672F3FD62200CC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		F14C7FF9F62B3AEA39DC6E069A1C2885 /* Pods-ChatBot_iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E00F06D95B6706CA30F7BE3995D4BC3 /* Pods-ChatBot_iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -31,7 +31,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FCF367F16E657B48CC5920E8DCD25794;
+			remoteGlobalIDString = 66C859B7BE26DAA3026954F5857FC835;
 			remoteInfo = ChatBot_iOS;
 		};
 /* End PBXContainerItemProxy section */
@@ -39,47 +39,39 @@
 /* Begin PBXFileReference section */
 		04FEB386C89B914953B2F7007BC14EAB /* ChatBot_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChatBot_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A3DDD85EE47978604FF3D85844628F /* Pods-ChatBot_iOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatBot_iOS_Example-Info.plist"; sourceTree = "<group>"; };
-		3CDA9CD31C7F94B9002680A31EB5A08C /* ChatBot_iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChatBot_iOS.modulemap; sourceTree = "<group>"; };
-		4304FA85E5F74DF294C3363B2470E684 /* ChatBot_iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ChatBot_iOS-Info.plist"; sourceTree = "<group>"; };
-		4684F69CC40AE2E31DD5FDC6E23AE314 /* ChatBot_iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ChatBot_iOS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		437375F24CBC3CBFC60FD7D99966333A /* ChatBot_iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChatBot_iOS-dummy.m"; sourceTree = "<group>"; };
 		4E00F06D95B6706CA30F7BE3995D4BC3 /* Pods-ChatBot_iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatBot_iOS_Example-umbrella.h"; sourceTree = "<group>"; };
 		50E9931511F2B0F385E23A71014B492F /* Pods-ChatBot_iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatBot_iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5341357E03D7BABAC4AEC7514F3D7F30 /* ChatBot_iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ChatBot_iOS-Info.plist"; sourceTree = "<group>"; };
 		540F7BD0389976B93F95002C7C53DE94 /* Pods_ChatBot_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatBot_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A636F192C97F1B370ECDBCD5B8091D9 /* Pods-ChatBot_iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatBot_iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		617663C8EC908EA72D5DCC9591844392 /* Pods-ChatBot_iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatBot_iOS_Tests-dummy.m"; sourceTree = "<group>"; };
 		6226BD3B6DAC4DA9C953D091469A6811 /* Pods-ChatBot_iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatBot_iOS_Example.modulemap"; sourceTree = "<group>"; };
-		69A419802271E04B0031A6F3 /* PrintHello.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrintHello.swift; path = ChatBot_iOS/Classes/PrintHello.swift; sourceTree = "<group>"; };
+		680006EE1DA21ED5886E65CFE4A5F882 /* ChatBot_iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChatBot_iOS-umbrella.h"; sourceTree = "<group>"; };
+		6EFEF70C5FAA54EB33CFC1E15E1D19ED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		73CC779E296AF9E5204AAE5B1C75C467 /* Pods-ChatBot_iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatBot_iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7FE2E9A5B56892BD2031E0851DD9A8BC /* Pods-ChatBot_iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatBot_iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
-		85B5656669CCD7F3D55A81089D4467A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8B5977842A54B46D84B9C853173626FD /* ChatBot_iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChatBot_iOS.modulemap; sourceTree = "<group>"; };
 		8CE9A614434CC6192405B6D6E2D4BF01 /* Pods-ChatBot_iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatBot_iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		936B8A708F5769AF87B2034A2E2D5582 /* ChatBot_iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ChatBot_iOS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EB0BFDD0AC794FDEB87AEFAB720BDAC /* ChatBot_iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChatBot_iOS.xcconfig; sourceTree = "<group>"; };
 		AC4389C688D5C054E18B0D8483F3A380 /* Pods-ChatBot_iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatBot_iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AC9DDF2334B2CBA773E0FC0F95F22879 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AE78E7864C0AE4A147C352B4FC48C5A1 /* TestClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestClass.swift; path = ChatBot_iOS/Classes/TestClass.swift; sourceTree = "<group>"; };
 		B77AA71F4EC1360D389D64ABD89519AE /* Pods-ChatBot_iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatBot_iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C083A7D8A9C703316AC786EA1700277C /* ChatBot_iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChatBot_iOS-prefix.pch"; sourceTree = "<group>"; };
-		C41C9E4E0DEF2EB2FF1077386649E81C /* ChatBot_iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChatBot_iOS-umbrella.h"; sourceTree = "<group>"; };
+		BA50043A4AE19E8A66B53F2A604305B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C5A5518157DCB50FC475D06892726D86 /* Pods_ChatBot_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatBot_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA3D8B0836D174D22A1C0BA6841DE5E0 /* ChatBot_iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChatBot_iOS.xcconfig; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CBCD243F5BE47E0633A0A4814D0BFA21 /* ChatBot_iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChatBot_iOS-prefix.pch"; sourceTree = "<group>"; };
 		CCB8E8D30A968B04B59A69C6FEB98C36 /* Pods-ChatBot_iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatBot_iOS_Example-dummy.m"; sourceTree = "<group>"; };
 		D31E058081C0CACF5BB93BBF96EC7236 /* Pods-ChatBot_iOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatBot_iOS_Tests-Info.plist"; sourceTree = "<group>"; };
 		DFFD3CEA99054689B4471D7E544861EE /* Pods-ChatBot_iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatBot_iOS_Tests.modulemap"; sourceTree = "<group>"; };
 		E06A5C2FD6CA9881EB259AB14492639D /* Pods-ChatBot_iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatBot_iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EAB3B4016E0FFE4200FCD56D4D46FFDF /* Pods-ChatBot_iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatBot_iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EC625C7C0570CC570732D0842B324674 /* Pods-ChatBot_iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatBot_iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F86B0BB06E44FD51DDBE9024EE9C420E /* ChatBot_iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChatBot_iOS-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		01B9210BEC47A7EFE15B5DF034BCE2DE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1D40A6BBBD563A39DAAAC915D2CB1042 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2D56B7F83721B3A269A707EB91B5A223 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -96,9 +88,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6EF349E9095BE9060BA92B6D269C4BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312CC98D2C7DAF30EA67C3DDF14F9FD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		146FC1E5B042F25470AC84E88E4633D5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C351AF3B43F748BFDBDFB81BA863EA3D /* ChatBot_iOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		14A264BB22C1193296954B9A70ACCE18 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,12 +143,12 @@
 			path = "Target Support Files/Pods-ChatBot_iOS_Example";
 			sourceTree = "<group>";
 		};
-		6E09B414691B7F4B1D2CE255F9DED2B0 /* Pod */ = {
+		938CBBF61225BE7DDBDC1348D947B602 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4684F69CC40AE2E31DD5FDC6E23AE314 /* ChatBot_iOS.podspec */,
-				AC9DDF2334B2CBA773E0FC0F95F22879 /* LICENSE */,
-				85B5656669CCD7F3D55A81089D4467A7 /* README.md */,
+				936B8A708F5769AF87B2034A2E2D5582 /* ChatBot_iOS.podspec */,
+				6EFEF70C5FAA54EB33CFC1E15E1D19ED /* LICENSE */,
+				BA50043A4AE19E8A66B53F2A604305B4 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -153,11 +161,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C351AF3B43F748BFDBDFB81BA863EA3D /* ChatBot_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AE78E7864C0AE4A147C352B4FC48C5A1 /* TestClass.swift */,
+				938CBBF61225BE7DDBDC1348D947B602 /* Pod */,
+				D7976E5459D9DB97CF7ECE81C419283D /* Support Files */,
+			);
+			name = ChatBot_iOS;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				EA8B8E471FA9196A28F9589B23D58C77 /* Development Pods */,
+				146FC1E5B042F25470AC84E88E4633D5 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				2C3E3DB37CBC017ABD2FCF3D61AE0D56 /* Products */,
 				14A264BB22C1193296954B9A70ACCE18 /* Targets Support Files */,
@@ -188,37 +207,18 @@
 			path = "Target Support Files/Pods-ChatBot_iOS_Tests";
 			sourceTree = "<group>";
 		};
-		EA8B8E471FA9196A28F9589B23D58C77 /* Development Pods */ = {
+		D7976E5459D9DB97CF7ECE81C419283D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FC4B8379D36FA42BE94CE6CCEE95EE34 /* ChatBot_iOS */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		EEBD7E225579FFAD894EED1968ED250F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3CDA9CD31C7F94B9002680A31EB5A08C /* ChatBot_iOS.modulemap */,
-				CA3D8B0836D174D22A1C0BA6841DE5E0 /* ChatBot_iOS.xcconfig */,
-				F86B0BB06E44FD51DDBE9024EE9C420E /* ChatBot_iOS-dummy.m */,
-				4304FA85E5F74DF294C3363B2470E684 /* ChatBot_iOS-Info.plist */,
-				C083A7D8A9C703316AC786EA1700277C /* ChatBot_iOS-prefix.pch */,
-				C41C9E4E0DEF2EB2FF1077386649E81C /* ChatBot_iOS-umbrella.h */,
+				8B5977842A54B46D84B9C853173626FD /* ChatBot_iOS.modulemap */,
+				9EB0BFDD0AC794FDEB87AEFAB720BDAC /* ChatBot_iOS.xcconfig */,
+				437375F24CBC3CBFC60FD7D99966333A /* ChatBot_iOS-dummy.m */,
+				5341357E03D7BABAC4AEC7514F3D7F30 /* ChatBot_iOS-Info.plist */,
+				CBCD243F5BE47E0633A0A4814D0BFA21 /* ChatBot_iOS-prefix.pch */,
+				680006EE1DA21ED5886E65CFE4A5F882 /* ChatBot_iOS-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/ChatBot_iOS";
-			sourceTree = "<group>";
-		};
-		FC4B8379D36FA42BE94CE6CCEE95EE34 /* ChatBot_iOS */ = {
-			isa = PBXGroup;
-			children = (
-				69A419802271E04B0031A6F3 /* PrintHello.swift */,
-				6E09B414691B7F4B1D2CE255F9DED2B0 /* Pod */,
-				EEBD7E225579FFAD894EED1968ED250F /* Support Files */,
-			);
-			name = ChatBot_iOS;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,19 +232,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51B75184EC7D9B72F6CFCA82DD7409CD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A47F9911F807B595E17A4E9BA8ADFA30 /* ChatBot_iOS-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9BBF8C06CC7E4041650C6EA46785F22E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F14C7FF9F62B3AEA39DC6E069A1C2885 /* Pods-ChatBot_iOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B8FA5E97CE93E3A004D6D3F482D777 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BCAADE3CEEDD4B1346DA404BE2BF3A2 /* ChatBot_iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,14 +289,14 @@
 			productReference = C5A5518157DCB50FC475D06892726D86 /* Pods_ChatBot_iOS_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FCF367F16E657B48CC5920E8DCD25794 /* ChatBot_iOS */ = {
+		66C859B7BE26DAA3026954F5857FC835 /* ChatBot_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F068DF04A313E32BB6EFE4FFAE6AE20B /* Build configuration list for PBXNativeTarget "ChatBot_iOS" */;
+			buildConfigurationList = 30298031E02043678227D9CDE1DC6CB7 /* Build configuration list for PBXNativeTarget "ChatBot_iOS" */;
 			buildPhases = (
-				51B75184EC7D9B72F6CFCA82DD7409CD /* Headers */,
-				41FF882603EF5795969F4F1B0F9B627F /* Sources */,
-				01B9210BEC47A7EFE15B5DF034BCE2DE /* Frameworks */,
-				9431BFBE47C4CA73745C30D53D78F16D /* Resources */,
+				E0B8FA5E97CE93E3A004D6D3F482D777 /* Headers */,
+				03AEF7AD493CC05D81052C50CED21629 /* Sources */,
+				6EF349E9095BE9060BA92B6D269C4BED /* Frameworks */,
+				0C3A1E8734A99ABF8AA15C9A167599F4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -315,11 +315,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					FCF367F16E657B48CC5920E8DCD25794 = {
-						LastSwiftMigration = 1020;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -334,7 +329,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FCF367F16E657B48CC5920E8DCD25794 /* ChatBot_iOS */,
+				66C859B7BE26DAA3026954F5857FC835 /* ChatBot_iOS */,
 				45BB7CA5B41F59A951072E6A41A576BA /* Pods-ChatBot_iOS_Example */,
 				238E3135C4127D46B80781AD5F0FD84A /* Pods-ChatBot_iOS_Tests */,
 			);
@@ -342,14 +337,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0EBD6F1DB5C01501F50625B01DDD6DB2 /* Resources */ = {
+		0C3A1E8734A99ABF8AA15C9A167599F4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9431BFBE47C4CA73745C30D53D78F16D /* Resources */ = {
+		0EBD6F1DB5C01501F50625B01DDD6DB2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,20 +361,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		03AEF7AD493CC05D81052C50CED21629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC20488CDDE4BD9E8BFEDB76FEE880FA /* ChatBot_iOS-dummy.m in Sources */,
+				5FBBFC53B1606CADFD2EB7E052CE5ECB /* TestClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		31F4411C51DFF80372E3F3DB32623328 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				32D1AB786F67AFCD56EF3EC16CDFBFF0 /* Pods-ChatBot_iOS_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		41FF882603EF5795969F4F1B0F9B627F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				69A419812271E04B0031A6F3 /* PrintHello.swift in Sources */,
-				5F04278D83DDD2ECA711BEFA072135A3 /* ChatBot_iOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,7 +392,7 @@
 		838CE002F743D856CDF19C699F821236 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ChatBot_iOS;
-			target = FCF367F16E657B48CC5920E8DCD25794 /* ChatBot_iOS */;
+			target = 66C859B7BE26DAA3026954F5857FC835 /* ChatBot_iOS */;
 			targetProxy = F9235D532CB1A3DD4DDA5035B13AFB11 /* PBXContainerItemProxy */;
 		};
 		ECC4889C360A82E02A6FBAC1C893A0ED /* PBXTargetDependency */ = {
@@ -409,11 +404,71 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3B01567CDCBD2950133AB2AFC57C6C16 /* Debug */ = {
+		3048B0C5C704DFFF688DA57F5380ED58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		36041AF714F8BB7306865A071CAC2AB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AC4389C688D5C054E18B0D8483F3A380 /* Pods-ChatBot_iOS_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -425,7 +480,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ChatBot_iOS_Example/Pods-ChatBot_iOS_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ChatBot_iOS_Example/Pods-ChatBot_iOS_Example.modulemap";
@@ -436,83 +491,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		5AB11226EC6B9C8E7CCC67092636BD4E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAB3B4016E0FFE4200FCD56D4D46FFDF /* Pods-ChatBot_iOS_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ChatBot_iOS_Tests/Pods-ChatBot_iOS_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ChatBot_iOS_Tests/Pods-ChatBot_iOS_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8C4657075ED21ADD95135327F57B5093 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E06A5C2FD6CA9881EB259AB14492639D /* Pods-ChatBot_iOS_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ChatBot_iOS_Tests/Pods-ChatBot_iOS_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ChatBot_iOS_Tests/Pods-ChatBot_iOS_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+		5B0C8287D755FD95091CF35D87FB8B2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -563,7 +548,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -576,11 +561,12 @@
 			};
 			name = Debug;
 		};
-		B69AD9F3E7DBDF58C8CDB7299814043A /* Debug */ = {
+		6C6425907702879DE4A7D46B2C56E6AD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA3D8B0836D174D22A1C0BA6841DE5E0 /* ChatBot_iOS.xcconfig */;
+			baseConfigurationReference = E06A5C2FD6CA9881EB259AB14492639D /* Pods-ChatBot_iOS_Tests.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -590,30 +576,66 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ChatBot_iOS/ChatBot_iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ChatBot_iOS/ChatBot_iOS-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatBot_iOS_Tests/Pods-ChatBot_iOS_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ChatBot_iOS/ChatBot_iOS.modulemap";
-				PRODUCT_MODULE_NAME = ChatBot_iOS;
-				PRODUCT_NAME = ChatBot_iOS;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatBot_iOS_Tests/Pods-ChatBot_iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		D2584DEA26ADB7D25CA3050DCDFFA572 /* Release */ = {
+		72360A44DB9C2BEC722320BA9A606451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB3B4016E0FFE4200FCD56D4D46FFDF /* Pods-ChatBot_iOS_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatBot_iOS_Tests/Pods-ChatBot_iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatBot_iOS_Tests/Pods-ChatBot_iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DA741974151BE2B9F785F1E6C41F570 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5A636F192C97F1B370ECDBCD5B8091D9 /* Pods-ChatBot_iOS_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -625,7 +647,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ChatBot_iOS_Example/Pods-ChatBot_iOS_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ChatBot_iOS_Example/Pods-ChatBot_iOS_Example.modulemap";
@@ -636,7 +658,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -644,70 +665,11 @@
 			};
 			name = Release;
 		};
-		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+		C7851E853232EE2F57BDC20CB0169177 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EB0BFDD0AC794FDEB87AEFAB720BDAC /* ChatBot_iOS.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		F304E1F31E096B02F7805C2BADB74ABC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA3D8B0836D174D22A1C0BA6841DE5E0 /* ChatBot_iOS.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -720,7 +682,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ChatBot_iOS/ChatBot_iOS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ChatBot_iOS/ChatBot_iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ChatBot_iOS/ChatBot_iOS.modulemap";
 				PRODUCT_MODULE_NAME = ChatBot_iOS;
@@ -736,14 +698,55 @@
 			};
 			name = Release;
 		};
+		E5390A339CC3D30859BD1A081D87E7C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EB0BFDD0AC794FDEB87AEFAB720BDAC /* ChatBot_iOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChatBot_iOS/ChatBot_iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChatBot_iOS/ChatBot_iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChatBot_iOS/ChatBot_iOS.modulemap";
+				PRODUCT_MODULE_NAME = ChatBot_iOS;
+				PRODUCT_NAME = ChatBot_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		0E1BC0DAA8B63FE06E0280DFD8928E86 /* Build configuration list for PBXNativeTarget "Pods-ChatBot_iOS_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B01567CDCBD2950133AB2AFC57C6C16 /* Debug */,
-				D2584DEA26ADB7D25CA3050DCDFFA572 /* Release */,
+				36041AF714F8BB7306865A071CAC2AB8 /* Debug */,
+				8DA741974151BE2B9F785F1E6C41F570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30298031E02043678227D9CDE1DC6CB7 /* Build configuration list for PBXNativeTarget "ChatBot_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5390A339CC3D30859BD1A081D87E7C1 /* Debug */,
+				C7851E853232EE2F57BDC20CB0169177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -751,8 +754,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
-				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+				5B0C8287D755FD95091CF35D87FB8B2D /* Debug */,
+				3048B0C5C704DFFF688DA57F5380ED58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -760,17 +763,8 @@
 		572E82ABB2EBA43F4F4F719766D389EB /* Build configuration list for PBXNativeTarget "Pods-ChatBot_iOS_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C4657075ED21ADD95135327F57B5093 /* Debug */,
-				5AB11226EC6B9C8E7CCC67092636BD4E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F068DF04A313E32BB6EFE4FFAE6AE20B /* Build configuration list for PBXNativeTarget "ChatBot_iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B69AD9F3E7DBDF58C8CDB7299814043A /* Debug */,
-				F304E1F31E096B02F7805C2BADB74ABC /* Release */,
+				6C6425907702879DE4A7D46B2C56E6AD /* Debug */,
+				72360A44DB9C2BEC722320BA9A606451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

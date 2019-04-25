@@ -1,8 +1,9 @@
 {
   "name": "ChatBot_iOS",
-  "version": "0.1.0",
-  "summary": "A short description of ChatBot_iOS.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.2.0",
+  "summary": "Conversation-like menus & interfaces in iOS",
+  "swift_version": "5.0",
+  "description": "ChatBot allows you to create conversation-like menus and interfaces in your iOS Apps",
   "homepage": "https://github.com/joris1995/ChatBot_iOS",
   "license": {
     "type": "MIT",
@@ -13,10 +14,10 @@
   },
   "source": {
     "git": "https://github.com/joris1995/ChatBot_iOS.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
   "source_files": "ChatBot_iOS/Classes/**/*"
 }

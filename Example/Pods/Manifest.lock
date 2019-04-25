@@ -1,5 +1,5 @@
 PODS:
-  - ChatBot_iOS (0.1.0)
+  - ChatBot_iOS (0.2.0)
 
 DEPENDENCIES:
   - ChatBot_iOS (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ChatBot_iOS: f45ff6a9f3826a7424b2f07165e14a01c33eb6db
+  ChatBot_iOS: 3674cf22d521fca5299ef432479d5755ceb1cda6
 
 PODFILE CHECKSUM: 075c8429053050039e6922d71f0d63da8958f870
 
