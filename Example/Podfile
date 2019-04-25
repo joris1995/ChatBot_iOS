@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ChatBot_iOS_Example' do
+  pod 'ChatBot_iOS', :path => '../'
+
+  target 'ChatBot_iOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
