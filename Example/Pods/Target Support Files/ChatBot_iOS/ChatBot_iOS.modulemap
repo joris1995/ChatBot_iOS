@@ -1,0 +1,6 @@
+framework module ChatBot_iOS {
+  umbrella header "ChatBot_iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - ChatBot_iOS (0.1.0)
+
+DEPENDENCIES:
+  - ChatBot_iOS (from `../`)
+
+EXTERNAL SOURCES:
+  ChatBot_iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ChatBot_iOS: f45ff6a9f3826a7424b2f07165e14a01c33eb6db
+
+PODFILE CHECKSUM: 075c8429053050039e6922d71f0d63da8958f870
+
+COCOAPODS: 1.6.1

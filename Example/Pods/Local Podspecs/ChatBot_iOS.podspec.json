@@ -1,0 +1,22 @@
+{
+  "name": "ChatBot_iOS",
+  "version": "0.1.0",
+  "summary": "A short description of ChatBot_iOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/joris1995/ChatBot_iOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "joris1995": "joris.dijkstra@incentro.com"
+  },
+  "source": {
+    "git": "https://github.com/joris1995/ChatBot_iOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ChatBot_iOS/Classes/**/*"
+}
